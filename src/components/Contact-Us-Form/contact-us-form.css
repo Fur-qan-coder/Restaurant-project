@@ -1,0 +1,453 @@
+.contact-us-form {
+    padding: 100px 0px;
+    background-color: #f1f1f1;
+}
+
+.get-in-touch {
+    width: 45%;
+}
+
+.get-in-touch span {
+    font-size: 24px;
+    font-weight: 700;
+    color: #f3274c;
+}
+
+.get-in-touch p {
+    padding: 10px 0px 30px;
+}
+
+.contact-handles-wraper .contact-handle {
+    width: 45%;
+    margin-bottom: 50px;
+}
+
+.contact-handle .contact-handle-img-wraper {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-handle .contact-handle-img-wraper svg{
+    width: 100%;
+    max-width: 100%;
+}
+
+.contact-handle .contact-handle-img-wraper svg path {
+    fill: #f3274c;
+}
+
+.contact-handle .contact-handle-text-wraper ul {
+    margin-bottom: 0px;
+}
+
+.contact-handle .contact-handle-text-wraper ul li {
+    list-style-type: none;
+    font-size: 20px;
+    color: #000;
+}
+
+.contact-handle .contact-handle-text-wraper ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+
+.contact-form {
+    width: 45%;
+    padding: 30px 50px;
+}
+
+.contact-form .form-heading {
+    margin-bottom: 50px;
+}
+
+.contact-form .form-heading h2 {
+    color: #f3274c;
+}
+
+.contact-form form .form-label {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.contact-form form .form-control {
+    padding: 15px 30px;
+    border: 1px solid black;
+    font-size: 18px;
+    background-color: #f1f1f1;
+}
+.contact-form form .form-control:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.contact-form form .submit-btn {
+    background-color: #f3274c;
+    border: 1px solid #f3274c;
+    width: 150px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+    position: relative;
+    transition: 0.3s ease;
+}
+
+.contact-form form .submit-btn::before {
+    border: 4px solid #f3274c;
+    content: "";
+    width: 100%;
+    height: 130%;
+    position: absolute;
+    right: -7%;
+    top: -14%;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.contact-form form .submit-btn:hover {
+    background-color: #f3274c;
+    border: 1px solid #f3274c;
+    color: #fff;
+}
+
+.contact-form form .submit-btn:hover::before {
+    width: 115%;
+}
+
+@media screen and (max-width:1699px) {
+    .contact-us-form {
+        padding: 70px 0px;
+    }
+    .get-in-touch {
+        width: 45%;
+    }
+    .get-in-touch span {
+        font-size: 22px;
+    }
+    .get-in-touch p {
+        padding: 10px 0px 30px;
+    }
+
+    .contact-handles-wraper .contact-handle {
+        width: 46%;
+        margin-bottom: 40px;
+    }
+
+    .contact-handle .contact-handle-img-wraper {
+        width: 30px;
+        height: 30px;
+    }
+    .contact-handle .contact-handle-text-wraper ul li {
+        font-size: 18px;
+    }
+    .contact-handle .contact-handle-text-wraper ul li a {
+        font-size: 18px;
+    }
+
+    .contact-form {
+        width: 47%;
+        padding: 20px 30px;
+    }
+
+    .contact-form .form-heading {
+        margin-bottom: 40px;
+    }
+    .contact-form form .form-label {
+        font-size: 18px;
+    }
+
+    .contact-form form .form-control {
+        padding: 12px 20px;
+        font-size: 16px;
+    }
+
+    .contact-form form .submit-btn {
+        width: 150px;
+        font-size: 20px;
+        padding: 10px 15px;
+        margin-top: 10px;
+    }
+
+    .contact-form form .submit-btn::before {
+        width: 100%;
+        height: 130%;
+        right: -7%;
+        top: -14%;
+        border-radius: 8px;
+    }
+
+    .contact-form form .submit-btn:hover::before {
+        width: 115%;
+    }
+}
+
+@media screen and (max-width:1366px) {
+    .contact-us-form {
+        padding: 50px 0px;
+    }
+    .get-in-touch {
+        width: 47%;
+    }
+    .get-in-touch span {
+        font-size: 18px;
+    }
+    .get-in-touch p {
+        padding: 10px 0px 20px;
+    }
+
+    .contact-handles-wraper .contact-handle {
+        width: 46%;
+        margin-bottom: 30px;
+    }
+
+    .contact-handle .contact-handle-img-wraper {
+        width: 25px;
+        height: 25px;
+    }
+    .contact-handle .contact-handle-text-wraper ul li {
+        font-size: 16px;
+    }
+    .contact-handle .contact-handle-text-wraper ul li a {
+        font-size: 16px;
+    }
+
+    .contact-form {
+        width: 47%;
+        padding: 20px;
+    }
+
+    .contact-form .form-heading {
+        margin-bottom: 30px;
+    }
+    .contact-form form .form-label {
+        font-size: 14px;
+    }
+
+    .contact-form form .form-control {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+    .contact-form .row {
+        margin-bottom: 5px !important;
+    }
+
+    .contact-form form .submit-btn {
+        width: 120px;
+        font-size: 14px;
+        padding: 7px 10px;
+        margin-top: 10px;
+    }
+
+    .contact-form form .submit-btn::before {
+        width: 100%;
+        height: 140%;
+        right: -7%;
+        top: -19%;
+        border-radius: 8px;
+    }
+
+    .contact-form form .submit-btn:hover::before {
+        width: 115%;
+    }
+}
+
+@media screen and (max-width:1199px) {
+    .contact-us-form {
+        padding: 40px 0px;
+    }
+    .get-in-touch {
+        width: 48%;
+    }
+    .get-in-touch span {
+        font-size: 16px;
+    }
+    .get-in-touch p {
+        padding: 10px 0px;
+    }
+
+    .contact-handles-wraper .contact-handle {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+
+    .contact-handle .contact-handle-img-wraper {
+        width: 20px;
+        height: 20px;
+    }
+    .contact-handle .contact-handle-text-wraper ul {
+        margin-bottom: 0px;
+        padding-left: 15px;
+    }
+    .contact-handle .contact-handle-text-wraper ul li {
+        font-size: 14px;
+    }
+    .contact-handle .contact-handle-text-wraper ul li a {
+        font-size: 14px;
+    }
+
+    .contact-form {
+        width: 47%;
+        padding: 10px;
+    }
+
+    .contact-form .form-heading {
+        margin-bottom: 15px;
+    }
+    .contact-form form .form-label {
+        font-size: 12px;
+    }
+
+    .contact-form form .form-control {
+        padding: 7px 10px;
+        font-size: 12px;
+    }
+    .contact-form .row {
+        margin-bottom: 5px !important;
+    }
+
+    .contact-form form .submit-btn {
+        width: 90px;
+        font-size: 12px;
+        padding: 5px 10px;
+        margin-top: 10px;
+    }
+
+    .contact-form form .submit-btn::before {
+        width: 100%;
+        height: 140%;
+        right: -7%;
+        top: -19%;
+        border-radius: 8px;
+    }
+    .contact-form form .submit-btn:hover::before {
+        width: 115%;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .contact-us-form {
+        padding: 30px 0px;
+    }
+    .get-in-touch {
+        width: 48%;
+    }
+    .get-in-touch span {
+        font-size: 16px;
+    }
+    .get-in-touch p {
+        padding: 10px 0px;
+    }
+
+    .contact-handles-wraper .contact-handle {
+        width: 80%;
+        margin-bottom: 0px;
+    }
+    .contact-handles-wraper .contact-handle:not(:last-child) {
+        /* margin-bottom: 20px; */
+        padding-bottom: 20px;
+    }
+
+    .contact-handle .contact-handle-img-wraper {
+        width: 15px;
+        height: 15px;
+    }
+    .contact-handle .contact-handle-text-wraper ul {
+        margin-bottom: 0px;
+        padding-left: 10px;
+    }
+    .contact-handle .contact-handle-text-wraper ul li {
+        font-size: 12px;
+    }
+    .contact-handle .contact-handle-text-wraper ul li a {
+        font-size: 12px;
+    }
+
+    .contact-form {
+        width: 47%;
+        padding: 10px;
+    }
+
+    .contact-form .form-heading {
+        margin-bottom: 15px;
+    }
+    .contact-form form .form-label {
+        font-size: 12px;
+    }
+
+    .contact-form form .form-control {
+        padding: 7px 10px;
+        font-size: 12px;
+    }
+    .contact-form .row {
+        margin-bottom: 5px !important;
+    }
+
+    .contact-form form .submit-btn {
+        width: 90px;
+        font-size: 12px;
+        padding: 5px 10px;
+        margin-top: 10px;
+    }
+
+    .contact-form form .submit-btn::before {
+        width: 100%;
+        height: 145%;
+        right: -7%;
+        top: -19%;
+        border-radius: 8px;
+    }
+    .contact-form form .submit-btn:hover::before {
+        width: 115%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .contact-us-form-contant{
+        flex-direction: column;
+    }
+    .get-in-touch {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .contact-handles-wraper .contact-handle {
+        width: 50%;
+        margin-bottom: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-handles-wraper .contact-handle:not(:last-child) {
+        /* margin-bottom: 20px; */
+        padding-bottom: 0px;
+    }
+    .contact-handle .contact-handle-text-wraper ul {
+        margin-bottom: 0px;
+        padding-left: 20px;
+    }
+    .contact-form {
+        width: 80%;
+        padding: 10px;
+    }
+    .contact-form .form-heading {
+        margin-bottom: 15px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .contact-form {
+        width: 100%;
+        padding: 0px;
+    }
+    .contact-form form .submit-btn::before {
+        width: 100%;
+        height: 155%;
+        right: -7%;
+        top: -26%;
+        border-radius: 8px;
+    }
+}

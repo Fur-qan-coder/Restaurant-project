@@ -1,0 +1,363 @@
+.Home-about-section {
+    padding: 100px 0px;
+    background-color: #fff;
+}
+
+.about-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.about-cards .about-card-headings {
+    width: 35%;
+}
+
+.about-card-headings span {
+    color: #f3274c;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.about-card-headings h2 {
+    font-size: 52px;
+    font-weight: 900;
+    line-height: 1.2;
+}
+
+.about-cards .about-card-text {
+    width: 40%;
+}
+
+.about-card-text p {
+    color: #686868;
+}
+
+.about-allcards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-allcards .card {
+    height: 500px;
+    padding: 30px;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0px;
+}
+
+.about-allcards .card::before {
+    content: "";
+    border: 4px solid #ffd40d;
+    position: absolute;
+    width: 84%;
+    height: 85%;
+    border-radius: 10px;
+}
+
+.about-allcards .resturent {
+    background-image: url("../../assets/images/beef-stack.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about-allcards .coctail-bar {
+    background-image: url("../../assets/images/coctail-bar.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 60px;
+}
+
+.about-allcards .private-dining {
+    background-image: url("../../assets/images/private-dining.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.filled-yellow-btn {
+    background-color: #ffd40d;
+    width: 98%;
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+    padding: 15px 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+@media screen and (max-width:1699px) {
+    .Home-about-section {
+        padding: 70px 0px;
+    }
+
+    .about-cards {
+        margin-bottom: 50px;
+    }
+
+    .about-cards .about-card-headings {
+        width: 35%;
+    }
+
+    .about-card-headings span {
+        font-size: 24px;
+    }
+
+    .about-card-headings h2 {
+        font-size: 42px;
+    }
+
+    .about-cards .about-card-text {
+        width: 40%;
+    }
+
+    .about-allcards .card {
+        height: 500px;
+        padding: 30px;
+    }
+
+    .about-allcards .coctail-bar {
+        margin-top: 40px;
+    }
+
+    .about-allcards .card::before {
+        border: 4px solid #ffd40d;
+        width: 84%;
+        height: 85%;
+        border-radius: 10px;
+    }
+
+    .filled-yellow-btn {
+        width: 100%;
+        font-size: 22px;
+        color: #000;
+        padding: 15px 20px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+}
+
+@media screen and (max-width:1366px) {
+    .Home-about-section {
+        padding: 50px 0px;
+    }
+
+    .about-cards {
+        margin-bottom: 40px;
+    }
+
+    .about-cards .about-card-headings {
+        width: 38%;
+    }
+
+    .about-card-headings span {
+        font-size: 22px;
+    }
+
+    .about-card-headings h2 {
+        font-size: 36px;
+    }
+
+    .about-cards .about-card-text {
+        width: 40%;
+    }
+
+    .about-allcards .card {
+        height: 350px;
+        padding: 20px;
+    }
+
+    .about-allcards .coctail-bar {
+        margin-top: 40px;
+    }
+
+    .about-allcards .card::before {
+        border: 4px solid #ffd40d;
+        width: 84%;
+        height: 85%;
+        border-radius: 10px;
+    }
+
+    .filled-yellow-btn {
+        width: 96%;
+        font-size: 18px;
+        color: #000;
+        padding: 10px 15px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+}
+
+@media screen and (max-width:1199px) {
+    .Home-about-section {
+        padding: 50px 0px;
+    }
+
+    .about-cards {
+        margin-bottom: 30px;
+    }
+
+    .about-cards .about-card-headings {
+        width: 35%;
+    }
+
+    .about-card-headings span {
+        font-size: 18px;
+    }
+
+    .about-card-headings h2 {
+        font-size: 30px;
+    }
+
+    .about-cards .about-card-text {
+        width: 40%;
+    }
+
+    .about-allcards .card {
+        height: 300px;
+        padding: 20px;
+        width: 30%;
+    }
+
+    .about-allcards .coctail-bar {
+        margin-top: 40px;
+    }
+
+    .about-allcards .card::before {
+        border: 4px solid #ffd40d;
+        width: 84%;
+        height: 85%;
+        border-radius: 10px;
+    }
+
+    .filled-yellow-btn {
+        width: 100%;
+        font-size: 18px;
+        color: #000;
+        padding: 10px 15px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .Home-about-section {
+        padding: 40px 0px;
+    }
+
+    .about-cards {
+        margin-bottom: 20px;
+    }
+
+    .about-cards .about-card-headings {
+        width: 32%;
+    }
+
+    .about-card-headings span {
+        font-size: 14px;
+    }
+
+    .about-card-headings h2 {
+        font-size: 24px;
+    }
+
+    .about-cards .about-card-text {
+        width: 40%;
+    }
+
+    .about-allcards .card {
+        height: 250px;
+        padding: 18px;
+        width: 30%;
+    }
+
+    .about-allcards .coctail-bar {
+        margin-top: 25px;
+    }
+
+    .about-allcards .card::before {
+        border: 4px solid #ffd40d;
+        width: 84%;
+        height: 85%;
+        border-radius: 10px;
+    }
+
+    .filled-yellow-btn {
+        width: 100%;
+        font-size: 14px;
+        color: #000;
+        padding: 7px 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .about-cards .about-card-headings {
+        width: 38%;
+    }
+    .about-cards .about-card-text {
+        width: 45%;
+    }
+    .about-allcards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .about-allcards .card{
+        width: 40%;
+    }
+    .about-allcards .card::before {
+        width: 87%;
+        height: 85%;
+        border-radius: 10px;
+    }
+    .about-allcards .card:not(:last-child){
+        margin-bottom: 20px;
+    }
+    .about-allcards .coctail-bar {
+        margin-top: 0px;
+    }
+    
+}
+
+@media screen and (max-width: 550px) {
+    .about-cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-cards .about-card-headings {
+        width: 100%;
+        text-align: center;
+    }
+    .about-cards .about-card-text {
+        width: 100%;
+        text-align: center;
+    }
+    .about-allcards .card {
+        width: 100%;
+        height: 400px;
+        border-radius: 16px;
+    }
+    .about-allcards .card::before {
+        content: none;    
+    }
+    .about-allcards .card a{
+        width: 60%;
+        margin: 0 auto;
+        border-radius: 10px;
+        text-decoration: none;
+        box-shadow: none;
+        border: none;
+    }
+    .about-allcards .card .filled-yellow-btn {
+        width: 100%;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+}

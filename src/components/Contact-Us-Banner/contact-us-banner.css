@@ -1,0 +1,88 @@
+.contact-us-banner {
+    padding: 150px 0px;
+    background-image: url("../../assets/images/banner-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.contact-us-banner::before {
+    content: "";
+    background-color: #00000057;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.contact-us-contant {
+    text-align: center;
+    color: #fff;
+    position: relative;
+    z-index: 5;
+}
+
+.contact-us-contant::after {
+    content: "";
+    background-color: #ffd40d;
+    width: 20%;
+    height: 12px;
+    border-radius: 10px;
+    position: absolute;
+    left: 40%;
+    bottom: -10px;
+}
+
+@media screen and (max-width:1699px) {
+    .contact-us-banner {
+        padding: 130px 0px;
+    }
+    .contact-us-contant::after {
+        width: 17%;
+        height: 12px;
+        border-radius: 10px;
+        left: 42%;
+        bottom: -15px;
+    }
+}
+
+@media screen and (max-width:1366px) {
+    .contact-us-banner {
+        padding: 130px 0px;
+    }
+    .contact-us-contant::after {
+        width: 17%;
+        height: 12px;
+        border-radius: 10px;
+        left: 42%;
+        bottom: -15px;
+    }
+}
+
+@media screen and (max-width:1199px) {
+    .contact-us-banner {
+        padding: 130px 0px;
+    }
+    .contact-us-contant::after {
+        width: 17%;
+        height: 9px;
+        border-radius: 10px;
+        left: 41%;
+        bottom: -15px;
+    }
+}
+@media screen and (max-width:991px) {
+    .contact-us-banner {
+        padding: 110px 0px;
+    }
+    .contact-us-contant::after {
+        width: 15%;
+        height: 7px;
+        border-radius: 10px;
+        left: 42%;
+        bottom: -12px;
+    }
+}

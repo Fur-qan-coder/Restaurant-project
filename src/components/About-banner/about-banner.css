@@ -1,0 +1,318 @@
+.about-banner {
+    padding: 100px 0px;
+}
+
+.about-banner-heading {
+    margin-bottom: 30px;
+}
+
+.about-banner-heading h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 60px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.about-banner-img-wraper {
+    width: 55%;
+}
+
+.cheef-img-wraper {
+    width: 50%;
+    height: 500px;
+    object-fit: cover;
+    overflow: hidden;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.menu-img-wraper {
+    width: 45%;
+    height: 500px;
+    object-fit: cover;
+    overflow: hidden;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.about-banner-text-wraper {
+    width: 35%;
+    margin-top: 60px;
+}
+
+.about-banner-text-wraper p {
+    margin-bottom: 50px;
+}
+
+.about-banner-text-card-wraper {
+    margin-bottom: 20px;
+}
+
+.about-banner-text-card-wraper .img-wraper {
+    width: 120px;
+    height: 120px;
+    border: 2px solid #ffd40d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.about-banner-text-card-wraper .img-wraper .icon {
+    width: 60px;
+    height: 60px;
+}
+
+.about-banner-text-card-wraper .img-wraper svg path {
+    fill: #f3274c;
+}
+
+.about-banner-text-card-wraper .text-wraper {
+    width: 75%;
+}
+.about-banner-text-card-wraper .text-wraper h3 {
+    color: #000;
+    font-weight: 700;
+}
+
+@media screen and (max-width:1699px) {
+    .about-banner {
+        padding: 70px 0px;
+    }
+
+    .about-banner-heading {
+        margin-bottom: 25px;
+    }
+
+    .about-banner-heading h1 {
+        font-size: 60px;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .about-banner-img-wraper {
+        width: 55%;
+    }
+
+    .cheef-img-wraper {
+        width: 48%;
+        height: 450px;
+        border-radius: 50%;
+    }
+
+    .menu-img-wraper {
+        width: 47%;
+        height: 450px;
+    }
+
+    .about-banner-text-wraper {
+        width: 38%;
+        margin-top: 20px;
+    }
+
+    .about-banner-text-wraper p {
+        margin-bottom: 40px;
+    }
+
+    .about-banner-text-card-wraper {
+        margin-bottom: 20px;
+    }
+
+    .about-banner-text-card-wraper .img-wraper {
+        width: 100px;
+        height: 100px;
+    }
+
+    .about-banner-text-card-wraper .img-wraper .icon {
+        width: 50px;
+        height: 50px;
+    }
+    .about-banner-text-card-wraper .text-wraper {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width:1366px) {
+    .about-banner {
+        padding: 50px 0px;
+    }
+
+    .about-banner-heading {
+        margin-bottom: 25px;
+    }
+
+    .about-banner-heading h1 {
+        font-size: 50px;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .about-banner-img-wraper {
+        width: 50%;
+    }
+
+    .cheef-img-wraper {
+        width: 48%;
+        height: 350px;
+        border-radius: 50%;
+    }
+
+    .menu-img-wraper {
+        width: 47%;
+        height: 350px;
+    }
+
+    .about-banner-text-wraper {
+        width: 42%;
+        margin-top: 10px;
+    }
+
+    .about-banner-text-wraper p {
+        margin-bottom: 30px;
+    }
+
+    .about-banner-text-card-wraper {
+        margin-bottom: 20px;
+    }
+
+    .about-banner-text-card-wraper .img-wraper {
+        width: 80px;
+        height: 80px;
+    }
+
+    .about-banner-text-card-wraper .img-wraper .icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .about-banner-text-card-wraper .text-wraper {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width:1199px) {
+    .about-banner-heading h1 {
+        font-size: 40px;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .about-banner-img-wraper {
+        width: 50%;
+    }
+    .cheef-img-wraper {
+        width: 48%;
+        height: 320px;
+        border-radius: 50%;
+    }
+
+    .menu-img-wraper {
+        width: 47%;
+        height: 320px;
+    }
+    .about-banner-text-card-wraper .text-wraper h3 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .about-banner-heading h1 {
+        font-size: 30px;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .about-banner-img-wraper {
+        width: 50%;
+    }
+    .cheef-img-wraper {
+        width: 48%;
+        height: 250px;
+        border-radius: 50%;
+    }
+
+    .menu-img-wraper {
+        width: 47%;
+        height: 250px;
+    }
+    .about-banner-text-card-wraper .text-wraper h3 {
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    .about-banner-text-card-wraper .img-wraper {
+        width: 60px;
+        height: 60px;
+    }
+
+    .about-banner-text-card-wraper .img-wraper .icon {
+        width: 30px;
+        height: 30px;
+    }
+    .about-banner-text-wraper p {
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .about-banner-body{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-banner-body .about-banner-img-wraper {
+        width: 50%;
+        margin-bottom: 0px;
+        display: none;
+    }
+    .cheef-img-wraper {
+        width: 48%;
+        height: 250px;
+        border-radius: 50%;
+        display: none;
+    }
+    .menu-img-wraper {
+        width: 47%;
+        height: 250px;
+        display: none;
+    }
+    .about-banner-text-wraper {
+        width: 100%;
+        margin-top: 10px;
+        flex-direction: column;
+    }
+    .about-banner-text-wraper p {
+        width: 100%;
+        text-align: center;
+    }
+    .about-banner-text-wraper .wraper{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .about-banner-text-card-wraper {
+        width: 45%;
+    }
+    .about-banner-text-wraper .wraper .about-banner-text-card-wraper .text-wraper .paragraph{
+        width: 100%;
+        text-align: left;
+    }
+    .about-banner-text-card-wraper .img-wraper {
+        width: 45px;
+        height: 45px;
+    }
+    .about-banner-text-card-wraper .img-wraper .icon {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media screen and (max-width: 655px) {
+    .about-banner-text-wraper .wraper{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        display: none;
+    }
+}

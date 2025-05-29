@@ -1,0 +1,321 @@
+@font-face {
+  font-family: "Ubuntu", sans-serif;
+  src: url('./assets/fonts/Ubuntu-L.woff') format('woff'),
+    url('./assets/fonts/Ubuntu-L.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ubuntu", sans-serif;
+  src: url('./assets/fonts/Ubuntu-R.woff') format('woff'),
+    url('./assets/fonts/Ubuntu-R.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ubuntu", sans-serif;
+  src: url('./assets/fonts/Ubuntu-M.woff') format('woff'),
+    url('./assets/fonts/Ubuntu-M.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ubuntu", sans-serif;
+  src: url('./assets/fonts/Ubuntu-B.woff') format('woff'),
+    url('./assets/fonts/Ubuntu-B.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.custom-container {
+  width: 1640px;
+  margin: 0 auto;
+}
+
+.container-small {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 52px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 34px;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 26px;
+  font-weight: 400;
+}
+
+p {
+  font-size: 18px;
+}
+
+.filled-btn {
+  background-color: #686868;
+  color: white;
+  width: 20%;
+  padding: 7px 10px;
+  border: 2px solid #686868;
+  border-radius: 5px;
+  text-transform: capitalize;
+  transition: 0.3s ease-in;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.filled-btn:hover {
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #000;
+}
+
+.outlined-btn {
+  background-color: transparent;
+  color: white;
+  width: 20%;
+  padding: 7px 10px;
+  border: 2px solid #686868;
+  border-radius: 5px;
+  text-transform: capitalize;
+  transition: 0.3s ease-in;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.outlined-btn:hover {
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #000;
+}
+
+/* index.css or App.css */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+
+
+@media screen and (max-width:1699px) {
+  .custom-container {
+    width: 1340px;
+  }
+  .container-small {
+    width: 1200px;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 42px;
+  }
+
+  h3 {
+    font-size: 28px;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .filled-btn {
+    width: 20%;
+    padding: 7px 10px;
+    border-radius: 5px;
+  }
+
+  .outlined-btn {
+    width: 20%;
+    padding: 7px 10px;
+    border-radius: 5px;
+  }
+}
+
+@media screen and (max-width:1366px) {
+  .custom-container {
+    width: 1140px;
+  }
+  .container-small {
+    width: 1000px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 38px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  h4 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .filled-btn {
+    width: 25%;
+    padding: 7px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  .outlined-btn {
+    width: 20%;
+    padding: 7px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:1199px) {
+  .custom-container {
+    width: 940px;
+  }
+  .container-small {
+    width: 840px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .filled-btn {
+    width: 18%;
+    padding: 7px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+
+  .outlined-btn {
+    width: 18%;
+    padding: 7px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .custom-container {
+    width: 740px;
+  }
+  .container-small {
+    width: 740px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .filled-btn {
+    width: 22%;
+    padding: 5px 8px;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+
+  .outlined-btn {
+    width: 18%;
+    padding: 5px 8px;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .custom-container {
+    width: 100%;
+  }
+  .container-small {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .filled-btn {
+    width: 32%;
+    padding: 5px 8px;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+}

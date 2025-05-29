@@ -1,0 +1,678 @@
+.footer {
+    padding: 100px 0px;
+    background-color: #f1f1f1;
+
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content .restorent-timing {
+    background-color: #f3274c;
+    padding: 40px;
+    border-radius: 14px;
+    text-align: center;
+}
+
+.footer-content .restorent-timing h2 {
+    font-size: 52px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.footer-content .restorent-timing span {
+    font-size: 30px;
+}
+
+.footer-content .restorent-timing p {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.footer-content .restorent-timing .social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-content .restorent-timing .social-icons a:not(:last-child) {
+    margin-right: 10px;
+}
+.footer-content .restorent-timing .social-icons a{
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+.social-icons a .img-wraper{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+}
+.social-icons a .img-wraper svg {
+    width: 30px;
+    height: 30px;
+}
+.social-icons a .img-wraper svg path {
+    fill: #f3274c;
+    transition: 0.3s ease-in-out;
+}
+.social-icons a:hover .img-wraper{
+    background-color: #f3274c;
+}
+.social-icons a:hover .img-wraper svg path{
+    fill: #fff;
+}
+
+.footer-about {
+    width: 10%;
+}
+
+.footer-about h3 {
+    font-weight: 700;
+    padding-bottom: 10px;
+    border-bottom: 4px solid #f3274c;
+    margin-bottom: 50px;
+    width: fit-content;
+}
+
+.footer-about ul {
+    padding-left: 0px;
+}
+
+.footer-about ul li {
+    list-style-type: none;
+    font-size: 18px;
+}
+
+.footer-about ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-about ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+.footer-menu {
+    width: 15%;
+}
+
+.footer-menu h3 {
+    font-weight: 700;
+    padding-bottom: 10px;
+    border-bottom: 4px solid #f3274c;
+    margin-bottom: 50px;
+    width: fit-content;
+}
+
+.footer-menu ul {
+    padding-left: 0px;
+}
+
+.footer-menu ul li {
+    list-style-type: none;
+    font-size: 18px;
+}
+
+.footer-menu ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-menu ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+.footer-link ul li {
+    position: relative;
+    transition: 0.3s ease-in-out;
+}
+
+.footer-link ul li::before {
+    content: "\2022";
+    font-size: 30px;
+    color: #f3274c;
+    border-radius: 50%;
+    position: absolute;
+    left: 0px;
+    bottom: -28%;
+    transition: 0.3s ease-in-out;
+    opacity: 0;
+}
+
+.footer-link ul li:hover {
+    padding-left: 20px;
+}
+
+.footer-link ul li:hover::before {
+    opacity: 1;
+}
+
+.news-letter h3 {
+    font-weight: 700;
+    padding-bottom: 10px;
+    border-bottom: 4px solid #f3274c;
+    margin-bottom: 50px;
+    width: fit-content;
+}
+
+.news-letter form .form-control {
+    width: 300px;
+    padding: 15px 20px;
+    font-size: 22px;
+}
+.news-letter form .form-control:focus {
+    outline: none;
+    border: 1px solid #f3274c;
+    box-shadow: none;
+}
+
+.news-letter form .submit-btn {
+    background-color: #f3274c;
+    border: 1px solid #f3274c;
+    width: 150px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    padding: 10px 15px;
+    margin-top: 30px;
+    cursor: pointer;
+    position: relative;
+    transition: 0.3s ease;
+}
+
+.news-letter form .submit-btn::before {
+    border: 4px solid #f3274c;
+    content: "";
+    width: 100%;
+    height: 130%;
+    position: absolute;
+    right: -7%;
+    top: -14%;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.news-letter form .submit-btn:hover {
+    background-color: #f3274c;
+    border: 1px solid #f3274c;
+    color: #fff;
+}
+
+.news-letter form .submit-btn:hover::before {
+    width: 115%;
+}
+
+@media screen and (max-width:1699px) {
+    .footer {
+        padding: 70px 0px;
+    }
+
+    .footer-content .restorent-timing {
+        padding: 30px;
+        border-radius: 14px;
+    }
+
+    .footer-content .restorent-timing h2 {
+        font-size: 42px;
+        margin-bottom: 30px;
+    }
+
+    .footer-content .restorent-timing span {
+        font-size: 26px;
+    }
+
+    .footer-content .restorent-timing p {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .footer-content .restorent-timing .social-icons a:not(:last-child) {
+        margin-right: 10px;
+    }
+
+    .footer-content .restorent-timing .social-icons a .img-wraper {
+        width: 50px;
+        height: 50px;
+    }
+
+    .social-icons a .img-wraper svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    .footer-about h3 {
+        padding-bottom: 10px;
+        margin-bottom: 40px;
+    }
+
+    .footer-about ul li {
+        font-size: 18px;
+    }
+
+    .footer-about ul li:not(:last-child) {
+        margin-bottom: 10px;
+    }
+
+    .footer-menu h3 {
+        padding-bottom: 10px;
+        margin-bottom: 40px;
+    }
+
+    .footer-menu ul li {
+        font-size: 18px;
+    }
+
+    .footer-menu ul li:not(:last-child) {
+        margin-bottom: 10px;
+    }
+
+    .footer-link ul li::before {
+        font-size: 30px;
+        border-radius: 50%;
+        left: 0px;
+        bottom: -28%;
+    }
+
+    .footer-link ul li:hover {
+        padding-left: 20px;
+    }
+
+    .news-letter h3 {
+        padding-bottom: 10px;
+        margin-bottom: 40px;
+    }
+
+    .news-letter form .form-control {
+        width: 300px;
+        padding: 15px 20px;
+        font-size: 22px;
+    }
+
+    .news-letter form .submit-btn {
+        width: 150px;
+        font-size: 20px;
+        padding: 10px 15px;
+        margin-top: 25px;
+    }
+
+    .news-letter form .submit-btn::before {
+        width: 100%;
+        height: 130%;
+        right: -7%;
+        top: -14%;
+        border-radius: 8px;
+    }
+
+    .news-letter form .submit-btn:hover::before {
+        width: 115%;
+    }
+}
+
+@media screen and (max-width:1366px) {
+    .footer {
+        padding: 50px 0px;
+    }
+
+    .footer-content .restorent-timing {
+        padding: 20px;
+        border-radius: 14px;
+    }
+
+    .footer-content .restorent-timing h2 {
+        font-size: 38px;
+        margin-bottom: 20px;
+    }
+
+    .footer-content .restorent-timing span {
+        font-size: 24px;
+    }
+
+    .footer-content .restorent-timing p {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .footer-content .restorent-timing .social-icons a:not(:last-child) {
+        margin-right: 10px;
+    }
+
+    .footer-content .restorent-timing .social-icons a .img-wraper {
+        width: 40px;
+        height: 40px;
+    }
+
+    .social-icons a .img-wraper svg {
+        width: 20px;
+        height: 20px;
+    }
+    .footer-about{
+        width: 15%;
+    }
+
+    .footer-about h3 {
+        padding-bottom: 10px;
+        margin-bottom: 30px;
+        font-size: 24px;
+    }
+
+    .footer-about ul li {
+        font-size: 14px;
+    }
+
+    .footer-about ul li:not(:last-child) {
+        margin-bottom: 6px;
+    }
+
+    .footer-menu h3 {
+        padding-bottom: 10px;
+        margin-bottom: 30px;
+        font-size: 24px;
+    }
+
+    .footer-menu ul li {
+        font-size: 14px;
+    }
+
+    .footer-menu ul li:not(:last-child) {
+        margin-bottom: 6px;
+    }
+
+    .footer-link ul li::before {
+        font-size: 30px;
+        border-radius: 50%;
+        left: 0px;
+        bottom: -55%;
+    }
+
+    .footer-link ul li:hover {
+        padding-left: 20px;
+    }
+
+    .news-letter h3 {
+        padding-bottom: 10px;
+        margin-bottom: 30px;
+        font-size: 24px;
+    }
+
+    .news-letter form .form-control {
+        width: 250px;
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+
+    .news-letter form .submit-btn {
+        width: 100px;
+        font-size: 16px;
+        padding: 7px 10px;
+        margin-top: 5px;
+    }
+
+    .news-letter form .submit-btn::before {
+        width: 100%;
+        height: 132%;
+        right: -7%;
+        top: -15%;
+        border-radius: 8px;
+    }
+
+    .news-letter form .submit-btn:hover::before {
+        width: 115%;
+    }
+}
+
+@media screen and (max-width:1199px) {
+    .footer {
+        padding: 50px 0px;
+    }
+
+    .footer-content .restorent-timing {
+        padding: 20px;
+        border-radius: 14px;
+    }
+
+    .footer-content .restorent-timing h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .footer-content .restorent-timing span {
+        font-size: 20px;
+    }
+
+    .footer-content .restorent-timing p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .footer-content .restorent-timing .social-icons a:not(:last-child) {
+        margin-right: 10px;
+    }
+
+    .footer-content .restorent-timing .social-icons a .img-wraper {
+        width: 40px;
+        height: 40px;
+    }
+
+    .social-icons a .img-wraper svg {
+        width: 20px;
+        height: 20px;
+    }
+    .footer-about{
+        width: 15%;
+    }
+
+    .footer-about h3 {
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+
+    .footer-about ul li {
+        font-size: 14px;
+    }
+
+    .footer-about ul li:not(:last-child) {
+        margin-bottom: 3px;
+    }
+
+    .footer-menu h3 {
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+
+    .footer-menu ul li {
+        font-size: 14px;
+    }
+
+    .footer-menu ul li:not(:last-child) {
+        margin-bottom: 3px;
+    }
+
+    .footer-link ul li::before {
+        font-size: 20px;
+        border-radius: 50%;
+        left: 0px;
+        top: -20%;
+    }
+
+    .footer-link ul li:hover {
+        padding-left: 15px;
+    }
+
+    .news-letter h3 {
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+
+    .news-letter form .form-control {
+        width: 250px;
+        padding: 6px 10px;
+        font-size: 14px;
+    }
+
+    .news-letter form .submit-btn {
+        width: 90px;
+        font-size: 14px;
+        padding: 7px 10px;
+        margin-top: 5px;
+    }
+
+    .news-letter form .submit-btn::before {
+        width: 100%;
+        height: 133%;
+        right: -7%;
+        top: -15%;
+        border-radius: 8px;
+    }
+
+    .news-letter form .submit-btn:hover::before {
+        width: 115%;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .footer {
+        padding: 40px 0px;
+    }
+
+    .footer-content .restorent-timing {
+        padding: 14px;
+        border-radius: 12px;
+    }
+
+    .footer-content .restorent-timing h2 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .footer-content .restorent-timing span {
+        font-size: 16px;
+    }
+
+    .footer-content .restorent-timing p {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .footer-content .restorent-timing .social-icons a:not(:last-child) {
+        margin-right: 10px;
+    }
+
+    .footer-content .restorent-timing .social-icons a .img-wraper {
+        width: 30px;
+        height: 30px;
+    }
+
+    .social-icons a .img-wraper svg {
+        width: 15px;
+        height: 15px;
+    }
+    .footer-about{
+        width: 15%;
+    }
+
+    .footer-about h3 {
+        padding-bottom: 10px;
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+
+    .footer-about ul li {
+        font-size: 12px;
+    }
+
+    .footer-about ul li:not(:last-child) {
+        margin-bottom: 0px;
+    }
+
+    .footer-menu h3 {
+        padding-bottom: 10px;
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+
+    .footer-menu ul li {
+        font-size: 12px;
+    }
+
+    .footer-menu ul li:not(:last-child) {
+        margin-bottom: 0px;
+    }
+
+    .footer-link ul li::before {
+        font-size: 20px;
+        border-radius: 50%;
+        left: 0px;
+        top: -40%;
+    }
+
+    .footer-link ul li:hover {
+        padding-left: 15px;
+    }
+
+    .news-letter h3 {
+        padding-bottom: 10px;
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+
+    .news-letter form .form-control {
+        width: 200px;
+        padding: 5px 7px;
+        font-size: 12px;
+    }
+
+    .news-letter form .submit-btn {
+        width: 90px;
+        font-size: 12px;
+        padding: 5px 7px;
+        margin-top: 5px;
+    }
+
+    .news-letter form .submit-btn::before {
+        width: 100%;
+        height: 135%;
+        right: -7%;
+        top: -18%;
+        border-radius: 8px;
+        border: 2px solid #f3274c;
+    }
+
+    .news-letter form .submit-btn:hover::before {
+        width: 115%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .footer-content .restorent-timing {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .footer-about {
+        width: 20%;
+    }
+    .footer-menu {
+        width: 20%;
+    }
+
+}
+@media screen and (max-width: 550px) {
+    .news-letter form .form-control {
+        width: 150px;
+    }
+}

@@ -1,0 +1,259 @@
+nav {
+    padding: 15px 0px;
+    background-color: #f1f1f1;
+}
+
+nav .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo-wraper a {
+    text-decoration: none;
+    color: #000;
+}
+
+.navbar .logo-wraper a h3 {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.navbar .logo-wraper a h3 span {
+    color: #f3274c;
+    font-weight: 700;
+    font-size: 34px;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #000;
+    position: relative;
+    transition: 0.3s ease-in-out;
+}
+
+.navbar ul li {
+    list-style-type: none;
+}
+
+.navbar ul li:not(:last-child) {
+    margin-right: 30px;
+}
+
+.navbar ul li a:hover::after {
+    width: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+.navbar ul li a.active::after {
+    width: 100%;
+}
+
+.navbar ul li a::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+}
+
+.toogle-icon-wraper {
+    display: none;
+}
+
+@media screen and (max-width:1699px) {
+    nav {
+        padding: 15px 0px;
+    }
+
+    .navbar .logo-wraper a h3 {
+        font-size: 42px;
+    }
+
+    .navbar .logo-wraper a h3 span {
+        font-size: 34px;
+    }
+
+    .navbar ul li a {
+        font-size: 24px;
+    }
+    .navbar ul li:not(:last-child) {
+        margin-right: 30px;
+    }
+
+    .navbar ul li a:hover::after {
+        width: 100%;
+    }
+
+    .navbar ul li a::after {
+        width: 0%;
+        height: 2px;
+        bottom: -10px;
+        left: 0;
+    }
+}
+@media screen and (max-width:1366px) {
+    nav {
+        padding: 10px 0px;
+    }
+
+    .navbar .logo-wraper a h3 {
+        font-size: 32px;
+    }
+
+    .navbar .logo-wraper a h3 span {
+        font-size: 24px;
+    }
+
+    .navbar ul li a {
+        font-size: 18px;
+    }
+    .navbar ul li:not(:last-child) {
+        margin-right: 30px;
+    }
+
+    .navbar ul li a:hover::after {
+        width: 100%;
+    }
+
+    .navbar ul li a::after {
+        width: 0%;
+        height: 2px;
+        bottom: -10px;
+        left: 0;
+    }
+}
+
+@media screen and (max-width:1199px) {
+    nav {
+        padding: 7px 0px;
+    }
+
+    .navbar .logo-wraper a h3 {
+        font-size: 28px;
+    }
+
+    .navbar .logo-wraper a h3 span {
+        font-size: 20px;
+    }
+
+    .navbar ul li a {
+        font-size: 14px;
+    }
+    .navbar ul li:not(:last-child) {
+        margin-right: 30px;
+    }
+
+    .navbar ul li a:hover::after {
+        width: 100%;
+    }
+
+    .navbar ul li a::after {
+        width: 0%;
+        height: 2px;
+        bottom: -10px;
+        left: 0;
+    }
+}
+
+@media screen and (max-width:991px) {
+     nav {
+        padding: 5px 0px;
+    }
+
+    .navbar .logo-wraper a h3 {
+        font-size: 24px;
+    }
+
+    .navbar .logo-wraper a h3 span {
+        font-size: 20px;
+    }
+
+    .navbar ul li a {
+        font-size: 12px;
+    }
+    .navbar ul li:not(:last-child) {
+        margin-right: 30px;
+    }
+
+    .navbar ul li a:hover::after {
+        width: 100%;
+    }
+
+    .navbar ul li a::after {
+        width: 0%;
+        height: 2px;
+        bottom: -10px;
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .toogle-icon-wraper{
+        display: block;
+        cursor: pointer;
+    }
+    .toogle-icon-wraper a svg path{
+        fill: #000;
+    }
+    .navbar ul{
+        flex-direction: column;
+        position: fixed;
+        top: 64px;
+        background-color: #000;
+        z-index: 10;
+        width: 300px;
+        height: 90vh;
+        right: -313px;
+        padding: 70px 10px 10px 40px;
+        text-align: left;
+        align-items: flex-start;
+        transition: 0.3s ease-in-out;
+    }
+    .navbar .menulist-active{
+        right: -13px;
+        transition: 0.3s ease-in-out;
+    }
+    .navbar ul li a{
+        color: #fff;
+    }
+    .navbar ul li{
+        color: #fff;
+        width: 100%;
+        cursor: pointer;
+        position: relative;
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+    } 
+    .navbar ul li:not(:last-child) {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .navbar ul li:hover::after {
+        width: 70%;
+        transition: 0.3s ease-in-out;
+    }
+
+    .navbar ul li.active::after {
+        width: 70%;
+    }
+
+    .navbar ul li::after {
+        content: "";
+        width: 0%;
+        height: 2px;
+        background-color: #ffd40d;
+        position: absolute;
+        bottom: -12px;
+        left: 0;
+    }
+}
